@@ -1,0 +1,37 @@
+# section information
+section:
+  name: Skills
+  id: skills
+  enable: true
+  weight: 2
+  showOnNavbar: true
+  # Can optionally hide the title in sections
+  # hideTitle: true
+
+# Your Skills.
+# Give a summary of you each skill in the summary section.
+skills:
+- name: Unity
+  logo: /images/skills/logo-unity.png
+  summary: "Empowers creatos to build games, apps, or immersive experiences featuring high-quality graphics, end-to-end multiplayer capabilities, multi-platform support, and AI enhancements."
+  url: "https://unity.com/"
+
+- name: C
+  logo: /images/skills/logo-c.png
+  summary: "Studied for professional development of an API wrapper with multiple uses and needs."
+  url: "https://www.w3schools.com/c/c_intro.php"
+
+- name: C++
+  logo: /images/skills/cpp-logo.png
+  summary: "Studied for professional development of the API we are supporting in a proprietary SDK."
+  url: "https://www.w3schools.com/cpp/default.asp"
+
+- name: C#
+  logo: /images/skills/logo-csharp.png
+  summary: "Used for professional and personal videogame development and studied for professional development of an API wrapper with multiple uses and needs."
+  url: "https://www.w3schools.com/cs/index.php"
+
+- name: Vue
+  logo: /images/skills/logo-vue.png
+  summary: "Developed two different website with vueJs framework, deeply understanding of component programming in it."
+  url: "https://vuejs.org/"

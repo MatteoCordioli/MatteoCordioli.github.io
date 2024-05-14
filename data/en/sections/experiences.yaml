@@ -1,0 +1,65 @@
+section:
+  name: Experiences # Titre de la section (par défaut: "" )
+  id: experiences # url id/slug of section *Required*
+  enable: true
+  weight: 3
+  showOnNavbar: true
+  # Can optionally hide the title in sections
+  # hideTitle: true 
+
+# Your experiences
+experiences:
+- company:
+    name: Opto Engineering
+    url: "https://www.opto-e.com/en/"
+    location: Italy, Mantova
+    logo: /images/logo-opto.png
+    #darkLogo: /images/logo-opto.png #(optional), Can optionally show a different logo for dark theme
+    # company overview
+    overview: Opto Engineering® designs, manufactures, and markets imaging components.
+  positions:
+  - designation: Software Engineer
+    start: Jun 2023
+    # don't provide end date if you are currently working there. It will be replaced by "Present"
+    # end: Dec 2020
+    # give some points about what was your responsibilities at the company.
+    responsibilities:
+    - Mantain SDK for machine vision GIGE-Vision cameras.
+    - Design and develop API's wrappers in C, C#, Python
+    - Refactor of GUI application
+
+- company:
+    name: Tiny Tales
+    url: "https://www.opto-e.com/en/"
+    location: Remote
+    logo: /images/logo-tinytales.png
+    #darkLogo: /images/logo-opto.png #(optional), Can optionally show a different logo for dark theme
+    # company overview
+    overview: A startup producing a videogame for kids.
+  positions:
+  - designation: Software Engineer
+    start: Feb 2024
+    # don't provide end date if you are currently working there. It will be replaced by "Present"
+    # end: Dec 2020
+    # give some points about what was your responsibilities at the company.
+    responsibilities:
+    - Develop the Unity version of the game
+    - Write and mantain the documentation for designers
+
+- company:
+    name: SocialNex
+    url: "https://www.socialnex.it/"
+    location: Italy, Verona
+    logo: /images/logo-socialnex.png
+    #darkLogo: /images/logo-socialnex.png #(optional), Can optionally show a different logo for dark theme
+    # company overview
+    overview: SocialNex specializes in strategic consulting for digital marketing and social media.
+  positions:
+  - designation: Information Technology Consultant
+    start: Dec 2023
+    # don't provide end date if you are currently working there. It will be replaced by "Present"
+    # end: Dec 2020
+    # give some points about what was your responsibilities at the company.
+    responsibilities:
+    - Meeting with clients to understand their techological needs
+    - Design and develop products such as website, custom GUI applications

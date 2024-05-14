@@ -1,0 +1,48 @@
+# section information
+section:
+  name: Education
+  id: education
+  template: sections/education.html # Use "sections/education-alt.html for alternate template.
+  enable: true
+  weight: 4
+  showOnNavbar: true
+  # Can optionally hide the title in sections
+  # hideTitle: true
+
+degrees:
+- name: Master degree in Commputer Science and Engineering
+  icon: fa-graduation-cap
+  timeframe: 2021-2023
+  institution:
+    name: Politecnico di Milano
+    url: "https://www.polimi.it/"
+    logo: /images/logo-polimi.jpg # Path of the logo image
+    #darkLogo: /images/logo-polimi.jpg #(optional), Can optionally show a different logo for dark theme
+  grade: #(optional)
+    scale: Italian University
+    achieved: 106
+    outOf: 110
+  publications: #(optional)
+  - title: A Gamified Framework to Assist Therapists with the ABA Therapy for Autism
+    url: "https://arxiv.org/abs/2401.00200"
+  - title: Multi-Objective Optimization, different approach to query a database
+    url: "https://arxiv.org/abs/2202.01550"
+  custonSections: #(optional)
+    - name: Thesis
+      content: A Gamified Framework to Assist Therapists with the ABA Therapy for Autism
+    - name: Supervisor
+      content: Prof. Pierluca Lanzi
+
+- name: Bachelor degree in Commputer Science and Engineering
+  icon: fa-book
+  timeframe: 2018-2021
+  institution:
+    name: Politecnico di Milano
+    url: "https://www.polimi.it/"
+    logo: /images/logo-polimi.jpg # Path of the logo image
+    #darkLogo: /images/logo-polimi.jpg #(optional), Can optionally show a different logo for dark theme
+  custonSections: #(optional)
+    - name: Thesis
+      content: Digitalization of a board game from Cranio Creation
+    - name: Supervisor
+      content: Prof. Alessandro Margara
