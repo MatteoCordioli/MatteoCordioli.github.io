@@ -1,4 +1,4 @@
-baseURL: https://matteocordioli.github.io
+baseURL: https://MatteoCordioli.github.io
 languageCode: en-us
 title: Matteo Cordioli 
 module:
@@ -52,7 +52,7 @@ params:
   background: /images/bk-1.jpg
   
   # GitHub repo URL of your site
-  gitRepo: https://github.com/MatteoCordioli/matteocordioli.github.io
+  gitRepo: https://github.com/MatteoCordioli/MatteoCordioli.github.io
 
   features:
     # Enable portfolio section
